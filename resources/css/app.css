@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.info-link ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-links ul li {
+    margin-bottom: 8px;
+    @apply opacity-90;
+}

@@ -20,7 +20,7 @@ export default function HeroBeraksi() {
                 <div className="mt-8">
                 <a
                     href="#"
-                    className="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition"
+                    className="inline-block bg-[#b01116] hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition"
                 >
                     Jelajahi Sekarang →
                 </a>

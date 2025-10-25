@@ -65,7 +65,6 @@ export default function GalleryGrid() {
         members: "Diva Lazuardi - 102042400012 dan 3 anggota lainnya",
         buttonLabel: "Kunjungi Platform",
         },
-        // Tambahkan data lain di sini...
     ];
 
     return (

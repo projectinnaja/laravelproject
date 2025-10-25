@@ -20,7 +20,7 @@ export default function GalleryDigital() {
             }
         };
 
-        updatePadding(); // Jalankan saat pertama kali render
+        updatePadding();
         window.addEventListener("resize", updatePadding);
         return () => window.removeEventListener("resize", updatePadding);
     }, []);

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html, body {
+    @apply h-full m-0 p-0;
+}
+
+#web-container {
+    @apply min-h-full relative;
+}
+
+#header-search-field {
+    @apply py-2 pr-4 pl-12 rounded-md bg-[#eee] border-[#dfdfdf] border;
+}
+
+#header-search-field:focus {
+    @apply ring-[#b01116] border-[#b01116]
+}
+
+header #right-header-nav button * {
+    @apply w-5;
+}

@@ -19,3 +19,10 @@ createInertiaApp({
         color: '#4B5563',
     },
 });
+
+var header = document.querySelector("header");
+var main = document.querySelector("main");
+var footer = document.querySelector("footer");
+
+main.style.paddingTop = header.offsetHeight + 20 + "px";
+main.style.paddingBottom = footer.offsetHeight + 20 + "px";

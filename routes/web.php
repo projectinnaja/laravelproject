@@ -18,6 +18,7 @@ use App\Http\Controllers\PageController;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
     return Inertia::render('Home');
 });
@@ -34,6 +35,21 @@ Route::get('/investor', function () {
 //     ]);
 // });
 
+=======
+// Route::get('/', function () {
+//     return Inertia::render('Welcome', [
+//         'canLogin' => Route::has('login'),
+//         'canRegister' => Route::has('register'),
+//         'laravelVersion' => Application::VERSION,
+//         'phpVersion' => PHP_VERSION,
+//     ]);
+// });
+
+Route::get("/", function() {
+    return Inertia::render("GalleryDigital");
+});
+
+>>>>>>> origin/page/Gallery
 // Route::get('/dashboard', function () {
 //     return Inertia::render('Dashboard');
 // })->middleware(['auth', 'verified'])->name('dashboard');
@@ -43,6 +59,7 @@ Route::get('/investor', function () {
 //     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
 //     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 // });
+<<<<<<< HEAD
 
 // Route::get('/', function () {
 //     return inertia('Auth/LoginPage');
@@ -68,5 +85,7 @@ Route::get('/investor', function () {
 // Route::get('/{any}', function () {
 //     return inertia('Auth/LoginPage');
 // })->where('any', '.*');
+=======
+>>>>>>> origin/page/Gallery
 
 require __DIR__.'/auth.php';

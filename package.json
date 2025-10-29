@@ -20,6 +20,10 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
+<<<<<<< HEAD
+=======
+        "feather-icons": "^4.29.2",
+>>>>>>> origin/page/Gallery
         "lucide-react": "^0.546.0",
         "react-feather": "^2.0.10"
     }
